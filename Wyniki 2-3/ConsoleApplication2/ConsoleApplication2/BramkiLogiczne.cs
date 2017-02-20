@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     public class BramkiLogiczne
     {
         SiecNeuronowa siecNeuronowa;
-        int[] tab = new int [] {2, 3, 1 }; //drugaw wartosc to sieci neuronowe w warstwie ukrytej
+        int[] ints = new int [] {2, 3, 1 }; //drugaw wartosc to sieci neuronowe w warstwie ukrytej
         double error=0.01;
         double wynik;
         double counter;
@@ -17,7 +17,7 @@ namespace ConsoleApplication1
 
         public BramkiLogiczne()
         {
-            siecNeuronowa = new SiecNeuronowa(tab);
+            siecNeuronowa = new SiecNeuronowa(ints);
         }
 
         public int uczenieCalosci()
